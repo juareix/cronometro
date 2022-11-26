@@ -1,0 +1,35 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100vh;
+    background-image: url(1.png);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: rgb(197, 197, 197);
+}
+.cronometro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    box-shadow: 2px 2px 2px rgb(63, 63, 250);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
